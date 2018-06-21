@@ -1,0 +1,128 @@
+@font-face { font-family: 'Font Awesome 5 Free'; font-style: normal; font-weight: 900; src: url("../Fonts/fa-solid-900.eot"); src: url("../Fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../Fonts/fa-solid-900.woff2") format("woff2"), url("../Fonts/fa-solid-900.woff") format("woff"), url("../Fonts/fa-solid-900.ttf") format("truetype"), url("../Fonts/fa-solid-900.svg#fontawesome") format("svg"); }
+* { margin: 0px; padding: 0px; text-decoration: none; box-sizing: border-box; list-style-type: none; font-size: 12px; font-family: 'Georgia', sans-serif; }
+
+body { background-color: #282828; }
+
+.centered { width: 1000px; margin-left: auto; margin-right: auto; }
+
+.search { height: 36px; background-color: #fff; background-size: cover; }
+.search #tel { padding-top: 10px; margin-left: 20px; color: #444343; }
+.search #tel a { width: 1000px; color: #696969; }
+.search #email { margin-top: -14px; margin-left: 242px; color: #444343; }
+.search #email a { color: #696969; }
+.search #search { float: right; margin-top: -25px; }
+.search #search input { border-radius: 30px; background-color: #e1e1e1; height: 32px; width: 210px; font-size: 20px; margin-top: 3px; }
+.search #search a img { width: 24px; background-color: #000; border-radius: 10px; padding: 5px; margin-left: -34px; margin-bottom: -5px; }
+.search #search a img::-moz-focus-inner { content: ''; width: 300px; }
+
+header { width: 1000px; height: 95px; background-color: #222222; border-bottom: 2px solid #7c9c37; z-index: 10; }
+header img { margin-left: 22px; margin-top: 20px; }
+header ul { float: right; }
+header ul li { padding-right: 20px; padding-left: 20px; color: #fff; margin-top: 45px; border-right: 1px solid #828282; line-height: 1.3; float: left; }
+header ul li::after { content: ''; display: table; clear: both; }
+header ul li:first-child a { color: #7c9c37; }
+header ul li:last-child { border-right: none; }
+header ul li a { color: #fff; }
+header ul li span { font-family: 'Arial', sans-serif; color: #ccc; }
+
+.sliderImages div { width: 100%; height: 620px; }
+
+.container { height: 556px; background-color: #fff; margin-top: -30px; padding-top: 60px; }
+.container p { font-size: 28px; width: 905px; }
+.container .line { width: 800px; height: 3px; background-color: #e8e8e8; border-radius: 47%; margin-top: 56px; }
+.container .news .firstImage { background-color: #f0f0f0; margin-left: 20px; margin-top: 50px; width: 22.5%; float: left; }
+.container .news .firstImage::after { content: ''; display: table; clear: both; }
+.container .news .firstImage img { width: 225px; height: 140px; }
+.container .news .firstImage .title { color: #7c9c37; font-size: 18px; margin: 20px 0px 20px 15px; }
+.container .news .firstImage p { color: #666; width: 192px; font-size: 13px; margin-left: 15px; margin-bottom: 20px; }
+.container .secoundLine { width: 800px; height: 3px; background-color: #e8e8e8; border-radius: 47%; margin-top: 370px; }
+
+.profil { height: 430px; background-color: #fff; }
+.profil .leftpart { margin-left: 20px; margin-right: 20px; width: 47%; float: left; }
+.profil .leftpart::after { content: ''; clear: both; display: table; }
+.profil .leftpart .title { margin-top: 50px; margin-bottom: 20px; }
+.profil .leftpart .title #leftPartTitle { color: #666; font-size: 18px; float: left; }
+.profil .leftpart .title #leftPartTitle::after { content: ''; display: table; clear: both; }
+.profil .leftpart .title #leftPartLink { color: #7b9b37; font-size: 13px; float: right; }
+.profil .leftpart .title #leftPartLink::after { content: ''; display: table; clear: both; }
+.profil .leftpart .title .bottomLine { border-bottom: 1px solid #e2e2e2; height: 32px; }
+.profil .leftpart .firstRowProfil { margin-top: 35px; }
+.profil .leftpart .firstRowProfil .leftPart { width: 47%; float: left; }
+.profil .leftpart .firstRowProfil .leftPart::after { content: ''; clear: both; display: table; }
+.profil .leftpart .firstRowProfil .leftPart .firstRowImage { width: 48px; float: left; }
+.profil .leftpart .firstRowProfil .leftPart .firstRowImage::after { content: ''; clear: both; display: table; }
+.profil .leftpart .firstRowProfil .leftPart .firstRowTitle { color: #7b9b37; margin-left: 70px; font-size: 14px; width: 122px; }
+.profil .leftpart .firstRowProfil .leftPart .firstRowContent { color: #666; font-size: 13px; width: 144px; margin-left: 70px; margin-top: 15px; }
+.profil .leftpart .firstRowProfil .rightPart { width: 47%; float: right; }
+.profil .leftpart .firstRowProfil .rightPart::after { content: ''; clear: both; display: table; }
+.profil .leftpart .firstRowProfil .rightPart .firstRowImage { width: 48px; float: left; }
+.profil .leftpart .firstRowProfil .rightPart .firstRowImage::after { content: ''; clear: both; display: table; }
+.profil .leftpart .firstRowProfil .rightPart .firstRowTitle { color: #7b9b37; margin-left: 70px; font-size: 14px; width: 122px; }
+.profil .leftpart .firstRowProfil .rightPart .firstRowContent { color: #666; font-size: 13px; width: 144px; margin-left: 70px; margin-top: 15px; }
+.profil .leftpart .secoundRowProfil .leftPart { margin-top: 55px; width: 47%; float: left; }
+.profil .leftpart .secoundRowProfil .leftPart::after { content: ''; clear: both; display: table; }
+.profil .leftpart .secoundRowProfil .leftPart .firstRowImage { width: 48px; float: left; }
+.profil .leftpart .secoundRowProfil .leftPart .firstRowImage::after { content: ''; clear: both; display: table; }
+.profil .leftpart .secoundRowProfil .leftPart .firstRowTitle { color: #7b9b37; margin-left: 70px; font-size: 14px; width: 122px; }
+.profil .leftpart .secoundRowProfil .leftPart .firstRowContent { color: #666; font-size: 13px; width: 144px; margin-left: 70px; margin-top: 15px; }
+.profil .leftpart .secoundRowProfil .rightPart { margin-top: 55px; width: 47%; float: right; }
+.profil .leftpart .secoundRowProfil .rightPart::after { content: ''; clear: both; display: table; }
+.profil .leftpart .secoundRowProfil .rightPart .firstRowImage { width: 48px; float: left; }
+.profil .leftpart .secoundRowProfil .rightPart .firstRowImage::after { content: ''; clear: both; display: table; }
+.profil .leftpart .secoundRowProfil .rightPart .firstRowTitle { color: #7b9b37; margin-left: 70px; font-size: 14px; width: 122px; }
+.profil .leftpart .secoundRowProfil .rightPart .firstRowContent { color: #666; font-size: 13px; width: 144px; margin-left: 70px; margin-top: 15px; }
+.profil .rightPartProfil { margin-right: 20px; width: 47%; float: right; }
+.profil .rightPartProfil::after { content: ''; clear: both; display: table; }
+.profil .rightPartProfil .title { margin-top: 50px; margin-bottom: 20px; }
+.profil .rightPartProfil .title #leftPartTitle { color: #666; font-size: 18px; float: left; }
+.profil .rightPartProfil .title #leftPartTitle::after { content: ''; display: table; clear: both; }
+.profil .rightPartProfil .title #leftPartLink { color: #7b9b37; font-size: 13px; float: right; }
+.profil .rightPartProfil .title #leftPartLink::after { content: ''; display: table; clear: both; }
+.profil .rightPartProfil .title .bottomLine { border-bottom: 1px solid #e2e2e2; height: 32px; }
+.profil .rightPartProfil .profilImages .leftImg { float: left; }
+.profil .rightPartProfil .profilImages .leftImg::after { content: ''; clear: both; display: table; }
+.profil .rightPartProfil .profilImages .rightImg { float: right; }
+.profil .rightPartProfil .profilImages .rightImg::after { content: ''; clear: both; display: table; }
+.profil .rightPartProfil .leftform { text-transform: capitalize; margin-left: 20px; width: 48%; float: left; }
+.profil .rightPartProfil .leftform::after { content: ''; clear: both; display: table; }
+.profil .rightPartProfil .leftform .leftName { margin-top: 20px; margin-bottom: 10px; font-size: 13px; color: #666; }
+.profil .rightPartProfil .leftform .leftName span { font-weight: bold; font-size: 13px; color: #666; }
+.profil .rightPartProfil .leftform .leftView { color: #7b9b37; font-size: 13px; }
+.profil .rightPartProfil .rightform { text-transform: capitalize; margin-left: 20px; width: 43%; float: left; }
+.profil .rightPartProfil .rightform::after { content: ''; clear: both; display: table; }
+.profil .rightPartProfil .rightform .rightName { margin-top: 20px; margin-bottom: 10px; font-size: 13px; color: #666; }
+.profil .rightPartProfil .rightform .rightName span { font-weight: bold; font-size: 13px; color: #666; }
+.profil .rightPartProfil .rightform .rightView { color: #7b9b37; font-size: 13px; }
+
+footer { height: 333px; background-color: #222; color: #666; font-size: 12px; border-bottom: 1px solid #000; }
+footer .aboutUs { color: #666; text-transform: uppercase; margin-top: 30px; margin-left: 20px; width: 23%; float: left; }
+footer .aboutUs::after { content: ''; display: table; clear: both; }
+footer .aboutUs #aboutUsImg { width: 215px; height: 90px; margin-top: 20px; margin-bottom: 24px; border: 1px solid #3a3a3a; padding: 3px 3px 3px 3px; }
+footer .aboutUs .aboutUsParagraph { text-transform: none; margin-bottom: 25px; }
+footer .aboutUs .aboutUsLink { color: #7b9b37; text-transform: capitalize; }
+footer .linkBlock { color: #666; text-transform: uppercase; margin-top: 30px; margin-left: 20px; width: 23%; float: left; }
+footer .linkBlock::after { content: ''; display: table; clear: both; }
+footer .linkBlock ul { margin-top: 20px; }
+footer .linkBlock ul li a { margin-left: 10px; text-transform: none; color: #7b9b37; }
+footer .linkBlock ul li .listItemsLine { border-bottom: 2px solid #3a3a3a; width: 210px; margin-top: 5px; margin-bottom: 5px; }
+footer .linkBlock ul li::before { content: '\00BB'; color: #3a3a3a; }
+footer .fromTheBlog { color: #666; text-transform: uppercase; margin-top: 30px; margin-left: 20px; width: 23%; float: left; }
+footer .fromTheBlog::after { content: ''; display: table; clear: both; }
+footer .fromTheBlog .title { margin-top: 16px; text-transform: none; font-size: 14px; }
+footer .fromTheBlog .title span { font-size: 10px; }
+footer .fromTheBlog .paragraphConteiner { text-transform: none; margin-top: 10px; width: 236px; }
+footer .fromTheBlog .readMe { color: #7b9b37; margin-top: 10px; text-transform: none; }
+footer .contactUs { color: #666; text-transform: uppercase; margin-top: 30px; margin-left: 20px; width: 23%; float: left; }
+footer .contactUs::after { content: ''; display: table; clear: both; }
+footer .contactUs .contactForm { margin-top: 18px; text-transform: capitalize; color: #666; line-height: 1.5; margin-bottom: 45px; }
+footer .contactUs .contactForm a { color: #666; }
+footer .contactUs .contactForm .mail a { color: #7c9c37; text-transform: none; }
+footer .contactUs .letter { font-size: 14px; color: #666; }
+footer .contactUs .nameinput { margin-top: 25px; margin-bottom: 10px; background-color: #353535; color: #807d77; border: none; border-radius: 4px; padding: 4px; width: 202px; }
+footer .contactUs .emailInput { background-color: #353535; color: #807d77; border: none; border-radius: 4px; padding: 4px; width: 202px; margin-bottom: 10px; }
+footer .contactUs input[type=submit] { border-radius: 4px; border: none; background-color: #7c9c37; color: #fff; width: 84px; padding: 6px; }
+
+.afterFooter { height: 60px; background-color: #222; border-top: 1px solid #3a3a3a; }
+.afterFooter .afterFooterParagraph { margin-left: 20px; padding-top: 25px; color: #666; }
+
+/*# sourceMappingURL=styles.css.map */
